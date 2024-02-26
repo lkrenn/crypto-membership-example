@@ -4,7 +4,7 @@
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "dotenv": "^16.4.5",
-    "ethers": "^5.7.2",
+    "ethers": "^6.0.0",
     "hardhat": "^2.20.1"
   }
 }

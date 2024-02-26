@@ -6,6 +6,7 @@ typechain
 typechain-types
 fake_folder
 .DS_Store
+.vscode
 
 #Hardhat files
 cache

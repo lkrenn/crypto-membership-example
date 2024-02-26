@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your DApp Name</title>
-    <script src="https://cdn.jsdelivr.net/npm/ethers@5.2/dist/ethers.min.js"></script>
     <!-- Include your CSS here if necessary -->
 </head>
 <body>
-
-    <script src="./js/app.js"></script> <!-- Link to your JavaScript file -->
 
     <h1>Welcome to Your DApp</h1>
 
@@ -20,6 +17,9 @@
     <div id="whitelist-content" style="display: none;">
         <p>This is content only visible to whitelisted addresses.</p>
         <!-- More whitelisted content here -->
+        <div id="whitelistImageContainer" style="display: none;">
+            <!-- Image will be inserted here by JavaScript -->
+        </div>
     </div>
 
     <!-- Non-Whitelisted Content -->
@@ -27,6 +27,9 @@
         <p>Please connect your wallet to see if you're whitelisted.</p>
         <!-- More content for non-whitelisted or unconnected users here -->
     </div>
+
+    <script type="module" src="./js/app.js"></script> <!-- Link to your JavaScript file -->
+
 
 </body>
 </html>
